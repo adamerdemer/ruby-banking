@@ -7,10 +7,11 @@ class Bank_account
   end
 
   def deposit(currency)
-    currency += @balance
+    @balance += currency
   end
 
-
-
+  def withdraw(currency)
+    @balance -= currency
+  end
 
 end
