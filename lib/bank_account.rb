@@ -5,5 +5,12 @@ class Bank_account
   def initialize
     @balance = 0
   end
-  
+
+  def deposit(currency)
+    currency += @balance
+  end
+
+
+
+
 end
